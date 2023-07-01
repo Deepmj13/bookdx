@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "poppins",sans-serif;
+}
+img{
+	width: 200px;
+	border-radius: 50%;
+	padding: 15px;
+}
+.container{
+	height:100vh;
+	width:100%;
+	background:#EEEEEE;
+	display: grid;
+	place-content: center;
+}
+.container .content{
+	width:25rem;
+	background: #111;
+	color:#FFF;
+	border-radius: 8px;
+	text-align: center;
+}
+.container .content .header{
+	display: flex;
+	justify-content: space-between;
+	padding:20px;
+	font-size: 1.2rem;
+}
+.container .content .header span i{
+	padding: 0 5px;
+}
+.container .content .header span i:first-child{
+	color:red;
+}
+.container .content .user{
+	padding: 10px;
+}
+.container .content .user h4{
+	font-size:1.3rem;
+	padding-bottom:10px;
+	font-weight: 500;
+}
+.container .content .user p{
+	font-size:1.1rem;
+	padding-bottom: 10px;
+}
+.container .content .user button{
+	padding:10px;
+	border-radius: 13px;
+	background: #FFFF;
+	cursor: pointer;
+	transition: 500ms;
+	margin:3px;
+	border: 1px solid #FFF;
+}
+.container .content .user button:hover{
+	background:#000;
+	scale: 1.1;
+/*	border:1px solid #FFF;*/
+	color:#FFF;
+}
+.container .content .footer{
+	margin-top:15px;
+}
+.container .content .footer i{
+	font-size: 1.7rem;
+	padding:0 5px;
+}
+.container .content .footer p{
+padding:15px ;
+}
